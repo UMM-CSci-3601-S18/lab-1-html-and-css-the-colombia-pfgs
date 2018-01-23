@@ -7,6 +7,10 @@ use float to make something locate itself on the right or left
 
 */
 
+body{
+  padding: 30px;
+  background-color: #d9ffe8;
+}
 
 #style {
   position: fixed;
@@ -43,5 +47,34 @@ use float to make something locate itself on the right or left
   text-decoration: none;
 }
 
+#main-title{
+  color: #685316;
+  font-family: monospace;
+  text-align: center;
+  font-size: 4rem;
+}
 
+.section {
+  border-radius: 10px;
+  padding: 20px;
+  border: 5px solid;
+  margin: 25px;
+  max-width: 870px;
+  margin-left: auto; /* this makes the width work*/
+  margin-right: auto; /* this makes the width work*/
+  width: 75%; /* Makes the sections fill 75% of the width of the screen */
+}
 
+#courses {
+  background-color: #FFDE7A;
+}
+
+#pslo {
+  background-color: #d5d6d2;
+
+}
+
+#faculty {
+  background-color: #f9f7f6
+
+}
