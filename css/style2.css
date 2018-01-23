@@ -7,7 +7,41 @@ use float to make something locate itself on the right or left
 
 */
 
-body{
-    padding: 30px;
-    background-color: #ffffff;
+
+#style {
+  position: fixed;
+  background-color: rgb(110, 107, 122);
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 0px;
+  padding-top: 0px;
 }
+
+#style ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #9fb9a5; /* Nav bar background */
+}
+
+#style li {
+  float: left;
+  border-right: 1px solid black; /* Puts a border inbetween each style link */
+}
+
+#style li a:hover {
+  background-color: rgba(65, 255, 55, 0.9); /* Link hover background color */
+}
+
+#style li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px; /*this adds some spacing around the items in our style footer*/
+  text-decoration: none;
+}
+
+
+
