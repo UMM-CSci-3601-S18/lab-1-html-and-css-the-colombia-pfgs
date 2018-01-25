@@ -48,7 +48,7 @@ body{
 }
 
 #main-title{
-  color: #685316;
+  color: #00137a;
   font-family: monospace;
   text-align: center;
   font-size: 4rem;
@@ -66,15 +66,45 @@ body{
 }
 
 #courses {
-  background-color: #FFDE7A;
+  background-color: rgba(0, 145, 255, 0.22);
 }
 
 #pslo {
-  background-color: #d5d6d2;
+  background-color: rgba(0, 214, 195, 0.26);
 
 }
 
 #faculty {
-  background-color: #f9f7f6
-
+  background-color: rgba(43, 0, 249, 0.12);
+  text-align: center;
 }
+
+#faculty>ul>li {
+  display: block;
+  font-family: sans-serif;
+  padding: 10px;
+  width: 25%; /* Have the image cards cover 25% of the faculty section's width*/
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /* Makes polaroid images */
+  text-align: center;
+}
+
+#faculty-list {
+  padding-left: 0
+}
+
+img.pic {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 75%; /* Sets image sizes to fit the cards more nicely rather than a fixed size */
+  margin: auto;
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgb(21, 87, 36); /* Makes a useless green glowing border when mouse hovers */
+}
+
+
